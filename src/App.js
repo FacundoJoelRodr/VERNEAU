@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <NavBar></NavBar>
-      <ItemListConteiner></ItemListConteiner>
+      <ItemListConteiner bienvenida="BIENVENIDO A VERNEAU PROXIMAMENTE UN ECOMMERCE DE ROPA"></ItemListConteiner>
     </div>
   );
 }

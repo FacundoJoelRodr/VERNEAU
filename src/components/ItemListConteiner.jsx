@@ -1,9 +1,9 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 
-const ItemListConteiner = () => {
+const ItemListConteiner = (props) => {
     const showAlert = () => {
-        alert('¡Bienvenido pero en alert!');
+        alert(props.bienvenida);
       };
       const styles = {
         carrito:{
@@ -13,7 +13,7 @@ const ItemListConteiner = () => {
     return (
   <>
   <div>
-  <h1>BIENVENIDO A VERNEAU PROXIMAMENTE UN ECOMMERCE DE ROPA</h1>
+  <h1>{props.bienvenida}</h1>
   <Button variant="info" onClick={showAlert} style={styles.carrito}>alerta de bienvenida</Button>{' '}
     </div>
   
