@@ -11,9 +11,8 @@ const carritoStyel ={
 }
 const CartWidget = () => {
   return (
-    <>
     <span><img src={carrito} alt='carrito' style={carritoStyel.img} id='carrito'/>0</span>
-    </>
+
   )
 }
 
